@@ -1,0 +1,11 @@
+47  kubectl apply -f nginx-deployment.yaml
+48  kubectl apply -f nginx-service.yaml
+49  kubectl get pod
+50  kubectl get service
+54  kubectl get service
+55  kubectl describe service nginx-service.yaml
+56  kubectl describe service nginx-service
+57  kubectl get pod -o wide
+➜  kubectl get deployment nginx-deployment -o yaml
+-o is for output
+
